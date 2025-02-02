@@ -49,9 +49,7 @@ import { EPAButton } from "epa-demo-ui-library";
 To customize the library, provide global options during installation:
 
 ```ts
-app.use(EPADemoUILibrary, {
-  theme: "dark", // Available themes: 'light', 'dark'
-});
+app.use(EPADemoUILibrary);
 ```
 
 ## Next Steps
