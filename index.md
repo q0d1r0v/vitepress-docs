@@ -6,7 +6,7 @@ title: "Demo UI Library Documentation"
 description: "Professional documentation for Epa Demo UI components."
 
 hero:
-  name: "Demo UI Library"
+  name: "EPA Demo UI Library"
   text: "Comprehensive Documentation"
   tagline: "Explore the full potential of our UI components."
   actions:

@@ -1,10 +1,10 @@
 # EPAButton
 
-EPAButton - bu oddiy UI komponent bo‘lib, `variant` xususiyati orqali turli uslublarga ega bo‘lishi mumkin.
+EPAButton is a simple UI component that can have different styles using the `variant` prop.
 
-## Foydalanish
+## Usage
 
-Quyidagi misol komponentni qanday ishlatishni ko‘rsatadi:
+The following example demonstrates how to use the component:
 
 ```vue
 <script setup>
@@ -18,18 +18,18 @@ import EPAButton from "@/components/EPAButton.vue";
 
 ## Props
 
-| Prop      | Tip    | Tavsif                                    | Default   |
-| --------- | ------ | ----------------------------------------- | --------- |
-| `variant` | String | Komponent uslubini belgilaydi (`primary`) | `default` |
+| Prop      | Type   | Description                             | Default   |
+| --------- | ------ | --------------------------------------- | --------- |
+| `variant` | String | Defines the component style (`primary`) | `default` |
 
-## Natija
+## Output
 
-- Agar `variant="primary"` bo‘lsa, matn **ko‘k rangda** ko‘rinadi.
-- Agar `variant` berilmasa, **standart uslub** ishlatiladi.
+- If `variant="primary"` is set, the text will appear **blue**.
+- If `variant` is not provided, the **default style** is applied.
 
-## Stil
+## Styling
 
-Komponent SCSS dan foydalanadi va `primary` sinfi orqali rang beriladi:
+The component uses SCSS and applies styles via the `primary` class:
 
 ```scss
 .container {
