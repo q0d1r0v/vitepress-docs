@@ -24,6 +24,7 @@ After installation, import the library in your main entry file:
 import { createApp } from "vue";
 import App from "./App.vue";
 import EPADemoUILibrary from "epa-demo-ui-library";
+import "epa-demo-ui-library/dist/epa-demo-ui-library.css";
 
 const app = createApp(App);
 app.use(EPADemoUILibrary);

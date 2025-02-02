@@ -8,7 +8,7 @@ The following example demonstrates how to use the component:
 
 ```vue
 <script setup>
-import EPAButton from "@/components/EPAButton.vue";
+import { EPAButton } from "epa-demo-ui-library";
 </script>
 
 <template>
